@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RealizarCompraTest" project="DesafioFase01" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="br.desafio.compra.RealizarCompraTest" time="83.737" displayname="RealizarCompraTest" uniqueid="[engine:junit-vintage]/[runner:br.desafio.compra.RealizarCompraTest]">
+    <testcase name="aceitarTermosDeServicosParaProceguirComACompra" classname="br.desafio.compra.RealizarCompraTest" time="24.238" displayname="aceitarTermosDeServicosParaProceguirComACompra" uniqueid="[engine:junit-vintage]/[runner:br.desafio.compra.RealizarCompraTest]/[test:aceitarTermosDeServicosParaProceguirComACompra(br.desafio.compra.RealizarCompraTest)]"/>
+    <testcase name="adicionarProdutoNalistaDeDesejos" classname="br.desafio.compra.RealizarCompraTest" time="14.042" displayname="adicionarProdutoNalistaDeDesejos" uniqueid="[engine:junit-vintage]/[runner:br.desafio.compra.RealizarCompraTest]/[test:adicionarProdutoNalistaDeDesejos(br.desafio.compra.RealizarCompraTest)]"/>
+    <testcase name="realizarCompraVestidoCasual" classname="br.desafio.compra.RealizarCompraTest" time="45.456" displayname="realizarCompraVestidoCasual" uniqueid="[engine:junit-vintage]/[runner:br.desafio.compra.RealizarCompraTest]/[test:realizarCompraVestidoCasual(br.desafio.compra.RealizarCompraTest)]"/>
+  </testsuite>
+</testrun>

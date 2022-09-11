@@ -1,0 +1,28 @@
+package br.desafio.compra;
+
+import org.junit.Before;
+import org.junit.jupiter.api.Test;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class RealizarCompra {
+
+	private WebDriver driver;
+	private RealizarCompraPage realizarCompraPage;
+	
+	@Before
+	public void executarBrowser(){
+		System.setProperty("webdriver.chrome.driver", "C:\\desafio\\DesafioFase01\\src\\main\\resources\\drives\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get("http://automationpractice.com/index.php?id_category=9&controller=category#/");
+//		driver.manage().window().setSize(new Dimension(1200, 765));
+//		driver.get("http://automationpractice.com/index.php?id_category=9&controller=category#/");
+		realizarCompraPage = new RealizarCompraPage(driver);
+	}
+	
+	@Test
+	public void realizarCompra() {
+		realizarCompraPage.ordenarPor("Price:Lowestfirst");
+	}
+}

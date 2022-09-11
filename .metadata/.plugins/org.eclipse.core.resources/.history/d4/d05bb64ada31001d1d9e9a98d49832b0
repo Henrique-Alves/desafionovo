@@ -1,0 +1,32 @@
+package br.desafio.erros;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class FluxoDeErrosPage {
+
+	public WebDriver driver;
+
+	public FluxoDeErrosPage(WebDriver driver) {
+		this.driver = driver;
+	}
+	
+	public void barraDeRolamentoParabaixo() {
+		JavascriptExecutor jse = (JavascriptExecutor)driver;
+		jse.executeScript("scrollBy(0,2250)", "");
+	}
+	
+	public void barraDeRolamentoParaCima() {
+		JavascriptExecutor jse = (JavascriptExecutor)driver;
+		jse.executeScript("scroll(0, -2250);");
+	}
+	
+	public void escreverEmailBoletinDeNoticias(String valor) {
+		WebElement element = driver.findElement(By.id("newsletter-input"));
+		element.sendKeys(valor);
+		element.sendKeys(Keys.ENTER);
+	}
+}

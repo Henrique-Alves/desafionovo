@@ -1,0 +1,12 @@
+package br.desafio.erros;
+
+import org.openqa.selenium.WebDriver;
+
+public class FluxoDeErrosPage {
+
+	public WebDriver driver;
+
+	public FluxoDeErrosPage(WebDriver driver) {
+		this.driver = driver;
+	}
+}

@@ -1,0 +1,40 @@
+package br.desafio2.compra;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import br.desafio.compra.RealizarCompraPage;
+
+public class FluxosDeComprasTest {
+	
+	private WebDriver driver;
+	private FluxosDeComprasPage fluxosDeCompraspage;
+
+	@Before
+	public void executarBrowser() {
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\desafio\\DesafioFase01\\src\\main\\resources\\driver\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get("http://automationpractice.com/index.php?id_category=9&controller=category.");
+		fluxosDeCompraspage = new FluxosDeComprasPage(driver);
+	}
+
+	@After
+	public void quit() {
+		driver.quit();
+	}
+	
+	    // id-1 
+		@Test
+		public void ComprarDoisProdutosTamanhoM() {
+			fluxosDeCompraspage.clicarImagem();
+			fluxosDeCompraspage.selecionarTamanho("2");
+			fluxosDeCompraspage.clicarNaCorDesejada();
+			
+		}
+}

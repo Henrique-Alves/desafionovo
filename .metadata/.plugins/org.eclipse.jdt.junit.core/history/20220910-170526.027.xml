@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FluxosDeComprasTest.ComprarDoisProdutosTamanhoMECorBranca" project="DesafioFase01" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="br.desafio2.compra.FluxosDeComprasTest" time="72.253" displayname="FluxosDeComprasTest" uniqueid="[engine:junit-vintage]/[runner:br.desafio2.compra.FluxosDeComprasTest]">
+    <testcase name="ComprarDoisProdutosTamanhoMECorBranca" classname="br.desafio2.compra.FluxosDeComprasTest" time="72.253" displayname="ComprarDoisProdutosTamanhoMECorBranca" uniqueid="[engine:junit-vintage]/[runner:br.desafio2.compra.FluxosDeComprasTest]/[test:ComprarDoisProdutosTamanhoMECorBranca(br.desafio2.compra.FluxosDeComprasTest)]"/>
+  </testsuite>
+</testrun>

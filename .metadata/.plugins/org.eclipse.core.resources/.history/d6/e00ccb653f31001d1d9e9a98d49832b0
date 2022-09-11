@@ -1,0 +1,12 @@
+package br.desafio2.compra;
+
+import org.openqa.selenium.WebDriver;
+
+public class FluxosDeComprasPage {
+
+public WebDriver driver;   
+    
+	public FluxosDeComprasPage(WebDriver driver) {
+		this.driver = driver;
+	}
+}

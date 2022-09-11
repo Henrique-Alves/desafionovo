@@ -1,0 +1,27 @@
+package br.desafio.compra;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.RemoteWebElement;
+import org.openqa.selenium.support.ui.Select;
+
+public class RealizarCompraPage {
+
+public WebDriver driver;
+	
+	public RealizarCompraPage(WebDriver driver) {
+		this.driver = driver;
+	}
+	
+	public void ordenarPor(String valor) {
+//		WebElement element = driver.findElement(By.id("selectProductSort"));
+//		Select select = new Select(element);
+//		
+//		select.deselectByValue(valor);
+	}
+	
+	public void clicarImagem() {
+		WebElement element = driver.findElement(By.xpath("//*[@id=\"center_column\"]/ul/li/div/div[1]/div/a[1]/img"));
+	}
+}

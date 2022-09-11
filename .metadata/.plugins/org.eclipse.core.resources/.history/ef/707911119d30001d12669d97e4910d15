@@ -1,0 +1,22 @@
+package br.desafio.compra;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+
+public class RealizarCompraPage {
+
+public WebDriver driver;
+	
+	public RealizarCompraPage(WebDriver driver) {
+		this.driver = driver;
+	}
+	
+	public void ordenarPor(String valor) {
+		WebElement element = driver.findElement(By.id("selectElementID"));
+		Select select = new Select(element);
+		
+		select.deselectByVisibleText(valor);
+	}
+}

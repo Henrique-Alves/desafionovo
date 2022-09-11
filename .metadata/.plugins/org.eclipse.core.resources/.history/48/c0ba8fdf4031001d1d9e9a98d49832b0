@@ -1,0 +1,19 @@
+package br.desafio2.compra;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class FluxosDeComprasPage {
+
+	public WebDriver driver;
+
+	public FluxosDeComprasPage(WebDriver driver) {
+		this.driver = driver;
+	}
+	
+	public void clicarImagem() {
+		WebElement element = driver.findElement(By.xpath("//*[@id=\"homefeatured\"]/li[2]/div/div[1]/div/a[1]/img"));
+		element.click();
+	}
+}

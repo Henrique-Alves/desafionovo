@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FluxoDeErrosTest.validarBoletinDeNoticias" project="DesafioFase01" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="br.desafio.erros.FluxoDeErrosTest" time="5.578" displayname="FluxoDeErrosTest" uniqueid="[engine:junit-vintage]/[runner:br.desafio.erros.FluxoDeErrosTest]">
+    <testcase name="validarBoletinDeNoticias" classname="br.desafio.erros.FluxoDeErrosTest" time="5.578" displayname="validarBoletinDeNoticias" uniqueid="[engine:junit-vintage]/[runner:br.desafio.erros.FluxoDeErrosTest]/[test:validarBoletinDeNoticias(br.desafio.erros.FluxoDeErrosTest)]"/>
+  </testsuite>
+</testrun>

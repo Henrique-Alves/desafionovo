@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RealizarCompraTest.aceitarTermosDeServicosParaProceguirComACompra" project="DesafioFase01" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="br.desafio.compra.RealizarCompraTest" time="0.001" displayname="RealizarCompraTest" uniqueid="[engine:junit-vintage]/[runner:br.desafio.compra.RealizarCompraTest]">
+    <testcase name="org.junit.runner.manipulation.Filter" classname="org.junit.runner.manipulation.Filter" time="0.001" displayname="initializationError" uniqueid="[engine:junit-vintage]/[runner:br.desafio.compra.RealizarCompraTest]/[test:initializationError(org.junit.runner.manipulation.Filter)]">
+      <error>java.lang.Exception: No tests found matching Method aceitarTermosDeServicosParaProceguirComACompra(br.desafio.compra.RealizarCompraTest) from org.junit.vintage.engine.descriptor.RunnerRequest@41c2284a&#13;
+	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:40)&#13;
+	at org.junit.vintage.engine.descriptor.RunnerTestDescriptor.applyFilters(RunnerTestDescriptor.java:142)&#13;
+	at org.junit.vintage.engine.discovery.RunnerTestDescriptorPostProcessor.applyFiltersAndCreateDescendants(RunnerTestDescriptorPostProcessor.java:42)&#13;
+	at org.junit.vintage.engine.discovery.VintageDiscoverer.discover(VintageDiscoverer.java:46)&#13;
+	at org.junit.vintage.engine.VintageTestEngine.discover(VintageTestEngine.java:64)&#13;
+	at org.junit.platform.launcher.core.EngineDiscoveryOrchestrator.discoverEngineRoot(EngineDiscoveryOrchestrator.java:152)&#13;
+	at org.junit.platform.launcher.core.EngineDiscoveryOrchestrator.discoverSafely(EngineDiscoveryOrchestrator.java:134)&#13;
+	at org.junit.platform.launcher.core.EngineDiscoveryOrchestrator.discover(EngineDiscoveryOrchestrator.java:108)&#13;
+	at org.junit.platform.launcher.core.EngineDiscoveryOrchestrator.discover(EngineDiscoveryOrchestrator.java:80)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.discover(DefaultLauncher.java:110)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncher.discover(DefaultLauncher.java:78)&#13;
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.discover(DefaultLauncherSession.java:81)&#13;
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.discover(SessionPerRequestLauncher.java:46)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.&lt;init&gt;(JUnit5TestReference.java:46)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestLoader.createFilteredTest(JUnit5TestLoader.java:74)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestLoader.createTest(JUnit5TestLoader.java:67)&#13;
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestLoader.loadTests(JUnit5TestLoader.java:56)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:513)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

@@ -1,0 +1,25 @@
+package br.desafio.login;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class Login {
+
+	private  static String baseUrl1 = "http://automationpractice.com/index.php?id_category=9&controller=category#/";
+	private  static String baseUrl2 = "http://automationpractice.com/index.php?id_category=9&controller=category.";
+	
+	
+	public WebDriver driver;
+
+	public Login(WebDriver driver) {
+		this.driver = driver;
+	}
+	
+	public void executarBrowser() {
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\desafio\\DesafioFase01\\src\\main\\resources\\driver\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get(baseUrl1);
+	}
+}

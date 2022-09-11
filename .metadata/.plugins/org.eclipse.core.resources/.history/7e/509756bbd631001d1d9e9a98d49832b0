@@ -1,0 +1,18 @@
+package br.desafio.erros;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+
+public class FluxoDeErrosPage {
+
+	public WebDriver driver;
+
+	public FluxoDeErrosPage(WebDriver driver) {
+		this.driver = driver;
+	}
+	
+	public void barraDeRolamentoParabaixo() {
+		JavascriptExecutor jse = (JavascriptExecutor)driver;
+		jse.executeScript("scrollBy(0,2250)", "");
+	}
+}

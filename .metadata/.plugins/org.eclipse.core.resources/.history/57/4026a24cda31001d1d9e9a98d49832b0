@@ -1,0 +1,36 @@
+package br.desafio.erros;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import br.desafio.compra.RealizarCompraPage;
+import br.desafio2.compra.FluxosDeComprasPage;
+
+public class FluxoDeErrosTest {
+
+	private WebDriver driver;
+	private FluxoDeErrosPage fluxodeerropage;
+	
+	@Before
+	public void executarBrowser() {
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\desafio\\DesafioFase01\\src\\main\\resources\\driver\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get("http://automationpractice.com/index.php?id_category=9&controller=category.");
+		fluxodeerropage = new FluxoDeErrosPage(driver);
+	}
+	
+	@After
+	public void quit() {
+//		driver.quit();
+	}
+	
+	@Test
+	public void validarBoletinDeNoticias() {
+		fluxodeerropage.barraDeRolamentoParabaixo();
+		fluxodeerropage.escreverEmailBoletinDeNoticias("emailnaoexistentenemcadastrado@gmail.com");
+	}
+}
